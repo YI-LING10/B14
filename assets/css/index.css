@@ -11,11 +11,6 @@
   opacity: 70%;
 }
 
-/*origin img*/
-.oripic img{
-  width: 10rem;
-}
-
 /*title font*/
 .title{
   font-size: 2rem;
@@ -68,9 +63,6 @@
 }
 
 /*card*/
-.card-img-top{
-  height: 18rem;
-}
 .card{
   background-color: #89939A;
 }
@@ -90,4 +82,72 @@
 }
 #member .table,#member td{
   border: solid white 1px;
+}
+
+/*RWD*/
+@media screen and (min-width:1000px){ 
+  .game{
+    height:40rem;
+  }
+  .platform{
+    width: 50rem;
+  }
+  .card{
+    width: 18rem;
+  }
+  .card-img-top{
+    height: 18rem;
+  }
+  #member p{
+    line-height: 30px;
+  }
+  #index .origin{
+    background-image: url(../image/origin.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+  }
+  #index p{
+    line-height: 50px;
+  }
+}
+@media screen and (max-width:1000px){ 
+  .game{
+    height:25rem;
+  }
+  .platform{
+    width: 30rem;
+  }
+  .card{
+    width: 8rem;
+  }
+  .card-img-top{
+    height: 8rem;
+  }
+  #index .origin{
+    background-image: url(../image/origin.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
+  }
+}
+@media screen and (max-width:500px){ 
+  .game{
+    height:15rem;
+  }
+  #system button{
+    font-size: 12px;
+  }
+  .platform{
+    width: 20rem;
+  }
+  .card{
+    width: 6rem;
+  }
+  .card-img-top{
+    height: 6rem;
+  }
+  #member p{
+    font-size: 12px;
+  }
 }
