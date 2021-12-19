@@ -87,7 +87,7 @@
 /*RWD*/
 @media screen and (min-width:1000px){ 
   .game{
-    height:40rem;
+    height:35rem;
   }
   .platform{
     width: 50rem;
