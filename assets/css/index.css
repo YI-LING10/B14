@@ -77,26 +77,14 @@
 .myself{
   position: relative;
 }
-.selfl{
-  position: absolute;
-  bottom: 100%;
-  right: 12px;
-  overflow: hidden;
-  height:0;
-  transition: .5s ease;
-}
-.selfr{
+.self{
   position: absolute;
   bottom: 100%;
   overflow: hidden;
-  height:0;
+  height:0%;
   transition: .5s ease;
 }
-.myself:hover .selfl{
-  bottom: 0%;
-  height: 100%; 
-}
-.myself:hover .selfr{
+.myself:hover .self{
   bottom: 0%;
   height: 100%; 
 }
