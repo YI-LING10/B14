@@ -47,8 +47,15 @@
   background-color: white;
 }
 
+/*system a*/
+#system a{
+  color: #7891AE;
+}
+#system .no{
+  text-decoration: none;
+}
 /*system tab*/
-#system .nav-link{
+/*#system .nav-link{
   color: black;
   transition: none;
 }
@@ -60,7 +67,7 @@
 #system .nav-tabs .nav-link.active,
 #system .nav-tabs .show>.nav-link {
   color: #7891AE;
-}
+}*/
 
 /*card*/
 .card{
@@ -110,6 +117,9 @@
   #index p{
     line-height: 50px;
   }
+  #system a{
+    font-size: 20px;
+  }
 }
 @media screen and (max-width:1000px){ 
   .game{
@@ -135,9 +145,6 @@
   .game{
     height:15rem;
   }
-  #system button{
-    font-size: 12px;
-  }
   .platform{
     width: 20rem;
   }
@@ -148,6 +155,9 @@
     height: 6rem;
   }
   #member p{
+    font-size: 12px;
+  }
+  #system a{
     font-size: 12px;
   }
 }
