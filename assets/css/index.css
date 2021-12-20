@@ -49,25 +49,11 @@
 
 /*system a*/
 #system a{
-  color: #7891AE;
+  color: #53667c;
 }
 #system .no{
   text-decoration: none;
 }
-/*system tab*/
-/*#system .nav-link{
-  color: black;
-  transition: none;
-}
-#system .nav-tabs .nav-link:focus,
-#system .nav-tabs .nav-link:hover {
-  color: #7891AE;
-  border: none;
-}
-#system .nav-tabs .nav-link.active,
-#system .nav-tabs .show>.nav-link {
-  color: #7891AE;
-}*/
 
 /*card*/
 .card{
